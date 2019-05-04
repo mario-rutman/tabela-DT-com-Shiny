@@ -3,7 +3,7 @@ library(shiny)
 
 
 ui <- basicPage(
-    h2("Primeira simulação"),
+    h2("Acrescentandoa a coluna tributo"),
     DT::dataTableOutput("minha_tabela")
 )
 
